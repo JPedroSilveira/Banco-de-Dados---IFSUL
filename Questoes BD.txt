@@ -1,0 +1,58 @@
+A função WEEKDAY(NOW()) no MySQL retorna:
+
+a) O número de dias da semana, retornando em um valor interno
+b) A data atual durante a semana dada pelo relógio interno do sistema
+c) Um número randômico baseado em uma equação que usa do horário interno do computador
+d) O número do dia da semana, retornando em um valor interno
+e) O dia da semana atualizado escrito em inglês, exemplo: "Monday"; 
+
+Resposta Letra D
+
+-----------------------------------------------------------------------------------------------
+
+A seguinte consulta: "SELECT SUBSTRING_INDEX('oi.thau//oi.1','.',1);" teria como retorno no MySQL:
+
+a) tchau//oi.1
+b) 1
+c) oi
+d) tchau
+e) .1
+
+Resposta Letra C
+
+-----------------------------------------------------------------------------------------------
+
+A consulta: "SELECT ROUND(3.14159265359, 7);" teria como retorno no MySQL:
+
+a) 3.14
+b) 3.14159265
+c) 3
+d) 3.1415927
+e) 3.1415926
+
+Resposta Letra D
+
+
+-----------------------------------------------------------------------------------------------
+
+Quando executada no dia 02/10/2016 às 23 horas 32 minutos e 24 segundos a consulta: "SELECT TIMEDIFF((FROM_DAYS(TO_DAYS(NOW()))),CURDATE());" teria como retorno no MYSQL:
+
+a) '2016-10-02'
+b) '2016-10-02 23:32:24'
+c) Null
+d) '00:00:00'
+e) '24:00:00'
+
+Resposta Letra D
+-----------------------------------------------------------------------------------------------
+
+Feita a consulta: SELECT SUBSTRING_INDEX(CURDATE(),'-',1) - YEAR(NOW()); No data 2016-10-02 09:46:08 no MySQL, o retorno correto seria:
+
+a) '2016-10-02'
+b) 2016
+c) 10
+d) 2016-10-02 09:46:08
+e) 0
+
+Resposta Letra E
+
