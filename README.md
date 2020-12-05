@@ -1,1 +1,1 @@
-Exercícios desenvolvidos durante a disciplina Banco de Dados (IFSUL)
+Exercícios desenvolvidos durante a disciplina Banco de Dados (IFSUL).
